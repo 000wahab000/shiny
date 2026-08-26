@@ -113,6 +113,13 @@
 <p>For help with learning fundamental Shiny programming concepts, check out the <a href="https://mastering-shiny.org/" class="external-link">Mastering Shiny</a> book and the <a href="https://shiny.rstudio.com/tutorial/" class="external-link">Shiny Tutorial</a>. The former is currently more up-to-date with modern Shiny features, whereas the latter takes a deeper, more visual, dive into fundamental concepts.</p>
 </div>
 <div class="section level2">
+<h2 id="agent-skill">Agent Skill<a class="anchor" aria-label="anchor" href="#agent-skill"></a>
+</h2>
+<p>shiny ships an <a href="https://agentskills.io" class="external-link">Agent Skill</a> at <code>system.file("skills", "shiny-for-r", package = "shiny")</code> to help coding agents write idiomatic Shiny for R apps. Agents using <a href="https://posit-dev.github.io/btw/" class="external-link">btw</a> discover it automatically once shiny is attached. To copy it into a project for use with Claude Code and other skill-aware tools, run:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">btw</span><span class="fu">::</span><span class="fu">btw_skill_install_package</span><span class="op">(</span><span class="st">"shiny"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
 <h2 id="join-the-conversation">Join the conversation<a class="anchor" aria-label="anchor" href="#join-the-conversation"></a>
 </h2>
 <p>If you want to chat about Shiny, meet other developers, or help us decide what to work on next, <a href="https://discord.com/invite/yMGCamUMnS" class="external-link">join us on Discord</a>.</p>
